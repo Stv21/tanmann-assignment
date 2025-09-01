@@ -1,4 +1,4 @@
-# Uniform Measurement System - Production Ready
+# tanmann-assignment
 
 ## 🎯 Project Overview
 A complete uniform measurement application integrating Flask backend with React frontend, featuring AI-powered body measurement using SAM2 and MediaPipe technologies.
