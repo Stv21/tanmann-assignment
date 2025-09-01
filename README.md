@@ -74,11 +74,15 @@ python app.py
 │   │   ├── components/         # Reusable components
 │   │   └── services/          # API services
 │   └── dist/                  # Production build
-├── Uniform-Measurements/       # Flask backend
+├── backend/                     # Node.js backend
+│   ├── src/                    # Source code
+│   └── package.json           # Dependencies
+├── Uniform-Measurements/        # Flask backend (SAM2 + MediaPipe)
 │   ├── app.py                 # Main Flask application
 │   ├── static/                # Frontend assets
-│   └── templates/             # HTML templates
-└── Real-Problem-Based-on-Size-main/  # Main project directory
+│   ├── templates/             # HTML templates
+│   └── requirements.txt       # Python dependencies
+└── python_size_predictor/       # AI models
 ```
 
 ## 🔧 Key Components

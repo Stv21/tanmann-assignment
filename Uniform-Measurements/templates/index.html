@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Uniform Measurement</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body id="body">
+    <div class="container">
+        <h1>Uniform Measurement - Side View</h1>
+        <p class="instructions">This page is for storing the side-view image -
+            <br><br>
+            Please position the camera stand accordingly, ensure <strong>YOUR ENTIRE SIDE PROFILE (HEAD TO TOE) IS VISIBLE IN THE VIDEO FEED</strong>
+        </p>
+        <div class="video-container">
+            <video id="video" width="640" height="480" autoplay></video>
+        </div>
+        <div id="measurement-status" style="display: none;">
+            <h2>Side View Obtained!</h2>
+            <button id="retry" class="action-button">Re-take</button>
+            <button id="continue" class="action-button">Submit Image</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

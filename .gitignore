@@ -59,6 +59,14 @@ logs
 *.pt
 *.task
 *.model
+*.weights
+*.h5
+*.ckpt
+*.safetensors
+
+# Specific large model files
+sam2.1_hiera_base_plus.pt
+pose_landmarker_lite.task
 
 # Cache
 .cache/
