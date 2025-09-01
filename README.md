@@ -1,11 +1,14 @@
 # tanmann-assignment
 
+**GitHub Repository**: https://github.com/Stv21/tanmann-assignment
+
 ## 🎯 Project Overview
 A complete uniform measurement application integrating Flask backend with React frontend, featuring AI-powered body measurement using SAM2 and MediaPipe technologies.
 
 ## 🚀 Live Demo
 - **Frontend**: Running on http://localhost:5174/
 - **Backend**: Production deployment at https://uniform-884275368968.asia-southeast1.run.app
+- **GitHub Repository**: https://github.com/Stv21/tanmann-assignment
 
 ## 💻 Tech Stack
 
@@ -135,6 +138,30 @@ Homepage → "Try It Now" → Calibration → Measurement → Results
 ---
 
 **This is a complete, production-ready uniform measurement system ready for deployment and submission.**
+
+## 📋 Submission Details
+
+**GitHub Repository**: https://github.com/Stv21/tanmann-assignment  
+**Project Name**: tanmann-assignment  
+**Submission Date**: September 1, 2025  
+**Status**: ✅ Complete and Production Ready  
+
+### Quick Links:
+- 🔗 **Repository**: https://github.com/Stv21/tanmann-assignment
+- 💻 **Local Demo**: http://localhost:5174/
+- 🌐 **Production Backend**: https://uniform-884275368968.asia-southeast1.run.app
+
+### Assignment Completion:
+✅ Flask Backend Integration  
+✅ React Frontend Integration  
+✅ Complete Measurement Workflow  
+✅ Production Backend Connectivity  
+✅ Working "Try It Now" Button  
+✅ Camera Calibration System  
+✅ AI-Powered Measurements  
+✅ Responsive Design  
+✅ Production Build Ready  
+✅ GitHub Repository Published
 
 ## OR
 
