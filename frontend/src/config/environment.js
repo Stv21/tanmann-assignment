@@ -2,6 +2,7 @@
  * Production-grade environment configuration
  * Manages different environments and API endpoints
  */
+console.log('VITE_MEASUREMENT_SERVICE_URL:', import.meta.env.VITE_MEASUREMENT_SERVICE_URL);
 
 // Environment types
 export const ENVIRONMENTS = {

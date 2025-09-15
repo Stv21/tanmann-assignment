@@ -1,7 +1,7 @@
 // Production-grade Measurement API service
 // Handles all communication with the original company backend for body measurements
 
-import { buildApiUrl, logger } from '../config/environment.js';
+import { buildMeasurementUrl, logger } from '../config/environment.js';
 
 /**
  * Measurement Service Class
@@ -21,7 +21,7 @@ class MeasurementService {
   async checkHealth() {
     try {
       // For production backend, check if root endpoint is responding
-      const url = buildApiUrl('/');
+  const url = buildMeasurementUrl('/');
       logger.debug('Checking production backend health at:', url);
       
       const response = await fetch(url, {
@@ -42,7 +42,7 @@ class MeasurementService {
         
         for (const endpoint of healthEndpoints) {
           try {
-            const healthUrl = buildApiUrl(endpoint);
+    const healthUrl = buildMeasurementUrl(endpoint);
             const healthResponse = await fetch(healthUrl, {
               method: 'GET',
               headers: this.defaultHeaders,
